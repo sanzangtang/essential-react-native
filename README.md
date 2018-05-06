@@ -1,10 +1,14 @@
 # Essential React Native
 
+__Note:__ The current project is under development. 
+
+## Introduction
+
 This is a react native boilerplate project integrated with following awesome third-party libraries:
 
 - ✅ [`react-native-navigation`@1.1.x](https://github.com/wix/react-native-navigation/) This is our core solution for navigating between screens in React Native.
-- ☑️ [`Redux`](https://redux.js.org)
-- ☑️ [`redux-thunk`](https://github.com/gaearon/redux-thunk)
+- ✅  [`Redux`](https://redux.js.org)
+- ✅  [`redux-thunk`](https://github.com/gaearon/redux-thunk) For async dispatch
 - ☑️ [`react-native-vector-icons`](https://github.com/oblador/react-native-vector-icons)
 - ☑️ [`react-native-scrollable-tab-view`](https://github.com/skv-headless/react-native-scrollable-tab-view)
 - More on the way...

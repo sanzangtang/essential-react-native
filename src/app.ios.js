@@ -2,14 +2,13 @@ import React from 'react';
 import registerScreens from './screens';
 import { Navigation } from 'react-native-navigation';
 
-const APP_NAME = 'essentialRN';
-
 registerScreens();
 
 // styling your navigator
 // check out docs here:
 // https://wix.github.io/react-native-navigation/#/styling-the-navigator
 const navigatorStyle = {};
+const APP_NAME = 'essentialRN';
 
 Navigation.startTabBasedApp({
   tabs: [
