@@ -1,18 +1,6 @@
-// import React from 'react';
-// import registerScreens from './screens';
-// import { Navigation } from 'react-native-navigation';
+/*
+You can customize how your app on android device starts
+Check out app.ios.js for some example settings
+*/
 
-// const APP_NAME = 'essentialRN';
-
-// registerScreens();
-
-// const navigatorStyle = {};
-
-// Navigation.startSingleScreenApp({
-//   screen: {
-//     screen: `${APP_NAME}.MainScreen`,
-//     title: 'Main Screen'
-//   }
-// });
-
-import './app.ios'; // only for testing
+import './app.ios';
