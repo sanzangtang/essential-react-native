@@ -5,6 +5,7 @@ import MainScreen from './screens/MainScreen';
 import SecondScreen from './screens/SecondScreen';
 import ThirdScreen from './screens/ThirdScreen';
 import FourthScreen from './screens/FourthScreen';
+import Drawer from './components/drawer';
 
 // redux
 import { Provider } from 'react-redux';
@@ -36,6 +37,7 @@ const registerScreens = () => {
   );
   // an example of not connecting to store
   Navigation.registerComponent(`${APP_NAME}.FourthScreen`, () => FourthScreen);
+  Navigation.registerComponent(`${APP_NAME}.Drawer`, () => Drawer);
 };
 
 export default registerScreens;

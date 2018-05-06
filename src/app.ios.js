@@ -25,6 +25,9 @@ const icons = {
   },
   'ios-apps': {
     size: 30
+  },
+  'ios-menu': {
+    size: 30
   }
 };
 
@@ -36,7 +39,15 @@ loadIcons(Icon, icons).then(sources => {
         screen: `${APP_NAME}.MainScreen`,
         icon: sources[0],
         title: 'Main Screen',
-        navigatorStyle
+        navigatorStyle,
+        navigatorButtons: {
+          leftButtons: [
+            {
+              icon: sources[4],
+              id: 'drawer'
+            }
+          ]
+        }
       },
       {
         label: 'Second',
@@ -59,6 +70,11 @@ loadIcons(Icon, icons).then(sources => {
         title: 'Fourth Screen',
         navigatorStyle
       }
-    ]
+    ],
+    drawer: {
+      left: {
+        screen: `${APP_NAME}.Drawer`
+      }
+    }
   });
 });

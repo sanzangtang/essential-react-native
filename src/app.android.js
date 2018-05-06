@@ -1,16 +1,18 @@
-import React from 'react';
-import registerScreens from './screens';
-import { Navigation } from 'react-native-navigation';
+// import React from 'react';
+// import registerScreens from './screens';
+// import { Navigation } from 'react-native-navigation';
 
-const APP_NAME = 'essentialRN';
+// const APP_NAME = 'essentialRN';
 
-registerScreens();
+// registerScreens();
 
-const navigatorStyle = {};
+// const navigatorStyle = {};
 
-Navigation.startSingleScreenApp({
-  screen: {
-    screen: `${APP_NAME}.MainScreen`,
-    title: 'Main Screen'
-  }
-});
+// Navigation.startSingleScreenApp({
+//   screen: {
+//     screen: `${APP_NAME}.MainScreen`,
+//     title: 'Main Screen'
+//   }
+// });
+
+import './app.ios'; // only for testing
