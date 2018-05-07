@@ -6,7 +6,7 @@ import styles from './styles/styles';
 
 const FirstRoute = () => (
   <View style={[styles.container, { backgroundColor: '#E0F7FA' }]}>
-    <Text style={styles.bigText}>Second Screen</Text>
+    <Text style={styles.bigText}>Third Screen (A)</Text>
     <Text style={styles.text}>
       An example of using react-native-tab-view integrated with
       react-native-navigation.
@@ -16,7 +16,7 @@ const FirstRoute = () => (
 
 const SecondRoute = () => (
   <View style={[styles.container, { backgroundColor: '#FFF8E1' }]}>
-    <Text style={styles.bigText}>Second Screen</Text>
+    <Text style={styles.bigText}>Third Screen (B)</Text>
     <Text style={styles.text}>
       An example of using react-native-tab-view integrated with
       react-native-navigation.

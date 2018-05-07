@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         width: '100%'
       },
       android: {
-        width: Dimensions.get('window').width * 0.75
+        width: Dimensions.get('window').width * 0.75 // on android width must be set
       }
     })
   }
