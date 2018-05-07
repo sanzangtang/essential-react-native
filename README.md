@@ -10,7 +10,7 @@ This is a react native boilerplate project integrated with following awesome thi
 - ✅  [`Redux`](https://redux.js.org)
 - ✅  [`redux-thunk`](https://github.com/gaearon/redux-thunk) For async dispatch
 - ✅  [`react-native-vector-icons`](https://github.com/oblador/react-native-vector-icons) All font files are included in this project. A helper function `loadIcons()` is created for you to easily combine with `react-native-navigation`.
-- [`react-native-scrollable-tab-view`](https://github.com/skv-headless/react-native-scrollable-tab-view)
+- [`react-native-tab-view`](https://github.com/react-native-community/react-native-tab-view)
 - More on the way...
 
 The purpose of this project is to save your time in configuring third-party libraries as well as to keep your project structure consistent and clean. It is highly recommended to check out this react native app example [junedomingo/movieapp](https://github.com/junedomingo/movieapp) for some of the best practices.

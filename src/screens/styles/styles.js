@@ -4,7 +4,7 @@ You don't have to include this in your own project
 or you can put styling sheets anywhere you like
 */
 
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Platform } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -20,9 +20,21 @@ const styles = StyleSheet.create({
   },
   text: {
     textAlign: 'center',
-    width: '65%',
+    width: '75%',
     color: '#333333',
     marginBottom: 5
+  },
+  icon: {
+    backgroundColor: 'transparent',
+    color: 'white'
+  },
+  tabBar: {
+    ...Platform.select({
+      ios: {
+        paddingTop: 20
+      },
+      android: {}
+    })
   }
 });
 

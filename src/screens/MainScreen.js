@@ -9,8 +9,8 @@ export default class MainScreen extends Component {
   }
 
   _onNavigatorEvent = event => {
-    if (event.type == 'NavBarButtonPress') {
-      if (event.id == 'drawer') {
+    if (event.type === 'NavBarButtonPress') {
+      if (event.id === 'drawer') {
         this.props.navigator.toggleDrawer();
       }
     }

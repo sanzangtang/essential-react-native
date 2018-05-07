@@ -3,7 +3,7 @@ Your drawer component goes here
 */
 
 import React, { Component } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, Platform, Dimensions, View, Text } from 'react-native';
 
 export default class Drawer extends Component {
   render() {
@@ -14,7 +14,14 @@ export default class Drawer extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    width: '90%', // not based on the device screen
-    backgroundColor: '#FAFAFA'
+    backgroundColor: '#FAFAFA',
+    ...Platform.select({
+      ios: {
+        width: '100%'
+      },
+      android: {
+        width: Dimensions.get('window').width * 0.75
+      }
+    })
   }
 });
